@@ -1,6 +1,6 @@
-# Meeper 📝
+# Meeper Ru to En 📝
 
-Meeper is an open-source browser extension that serves as your secretary for any in-browser conference. It leverages the power of ChatGPT and Whisper AI to provide transcriptions, summaries, and more for meetings and any browser tab.
+Meeper Ru to En is an open-source browser extension that serves as your secretary for any in-browser conference. It leverages the power of ChatGPT and Whisper AI to provide transcriptions, summaries, and more for meetings and any browser tab.
 
 ![meeper_hehe](hehe.png)
 
@@ -10,7 +10,7 @@ Meeper is an open-source browser extension that serves as your secretary for any
 
 - 🔐 Your API Key is securely stored locally on your browser, encrypted, and never transmitted elsewhere.
 
-- 🤖 Meeper utilizes Whisper for accurate transcriptions and ChatGPT for generating summaries.
+- 🤖 Meeper Ru to En utilizes Whisper for accurate transcriptions and ChatGPT for generating summaries.
 
 - 💿 Speech detection feature optimizes API usage by activating only when speech sounds are detected, reducing up to 30% of resource consumption.
 
@@ -30,16 +30,16 @@ Meeper is an open-source browser extension that serves as your secretary for any
 
 To get started, follow these steps:
 
-1. Install Meeper from the Chrome Web Store or your browser's extension marketplace.
+1. Install Meeper Ru to En from the Chrome Web Store or your browser's extension marketplace.
 
 2. Upon installation, enter your OpenAI API Key in the extension settings. Rest assured, the key is securely stored on your local machine and never shared externally.
 
-3. Launch Meeper using one of the following methods:
+3. Launch Meeper Ru to En using one of the following methods:
   - Press the configured hotkey combination.
-  - Click on the Meeper icon in the browser toolbar and select "Launch Meeper."
-  - Right-click on a tab and choose the "Launch Meeper" option from the context menu.
+  - Click on the Meeper Ru to En icon in the browser toolbar and select "Launch Meeper Ru to En."
+  - Right-click on a tab and choose the "Launch Meeper Ru to En" option from the context menu.
 
-4. Once Meeper is activated, it will start transcribing the audio from the currently selected tab. You can control the playback, pause, or skip to specific sections of the transcription in real-time.
+4. Once Meeper Ru to En is activated, it will start transcribing the audio from the currently selected tab. You can control the playback, pause, or skip to specific sections of the transcription in real-time.
 
 5. Enjoy the convenience of having accurate transcriptions and summaries for your in-browser conferences!
 
@@ -74,7 +74,7 @@ npm run build
 
 ## Contributing
 
-We welcome contributions to enhance the functionality and usability of Meeper. To contribute, please follow these guidelines:
+We welcome contributions to enhance the functionality and usability of Meeper Ru to En. To contribute, please follow these guidelines:
 
 1. Fork the repository and clone it locally.
 
@@ -90,4 +90,4 @@ We welcome contributions to enhance the functionality and usability of Meeper. T
 
 ## License
 
-Meeper is released under the [Mozilla Public License (MPL)](LICENSE).
+Meeper Ru to En is released under the [Mozilla Public License (MPL)](LICENSE).

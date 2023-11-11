@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "version": "0.5.1",
   "name": "Meeper - transcribe & summarize Meets",
-  "short_name": "Meeper",
-  "description": "Transcriptions, summary and more using ChatGPT and Whisper AI for meetings and any browser tab.",
+  "short_name": "Meeper Ru to En",
+  "description": "Translations, summary and more using ChatGPT and Whisper AI for meetings and any browser tab.",
   "background": {
     "service_worker": "assets/background.js"
   },
@@ -16,7 +16,7 @@
     }
   ],
   "action": {
-    "default_title": "Meeper",
+    "default_title": "Meeper Ru to En",
     "default_popup": "popup.html"
   },
   "commands": {

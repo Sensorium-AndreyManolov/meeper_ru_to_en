@@ -115,7 +115,7 @@ export function useNoApiKeyToast() {
                   <span>API key not set or invalid!</span>
                 </div>
               ) as any,
-              description: "You have to set OpenAI API Key to use Meeper.",
+              description: "You have to set OpenAI API Key to use Meeper Ru to En.",
               action: (
                 <ToastAction
                   altText="Set OpenAI API Key"
@@ -246,7 +246,7 @@ function ApiKeyDialogContent({
         onClose();
         toast({
           title: "✅ API Key successfully set!",
-          description: "Enjoy with Meeper.",
+          description: "Enjoy with Meeper Ru to En.",
         });
 
         window.dispatchEvent(new CustomEvent("_openai_api_key_entered"));
@@ -288,13 +288,13 @@ function ApiKeyDialogContent({
 
               {!errorState && (
                 <ul className="list-disc pl-4 text-left space-y-2">
-                  <li>You need an OpenAI API Key to use Meeper.</li>
+                  <li>You need an OpenAI API Key to use Meeper Ru to En.</li>
                   <li>
                     Your API Key is stored locally on your browser and
                     encrypted, and never sent anywhere else.
                   </li>
                   <li>
-                    Meeper uses Whisper to transcribe & ChatGPT for summary.{" "}
+                    Meeper Ru to En uses Whisper to transcribe & ChatGPT for summary.{" "}
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -377,7 +377,7 @@ function ApiKeyDialogContent({
               {errorState && (
                 <div className="mt-1 text-xs">
                   If you have already completed the steps described below, you
-                  can safely close this popup and continue using Meeper.
+                  can safely close this popup and continue using Meeper Ru to En.
                 </div>
               )}
             </div>

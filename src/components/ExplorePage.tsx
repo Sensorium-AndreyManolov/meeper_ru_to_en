@@ -146,14 +146,14 @@ export default function ExplorePage({ recordId }: { recordId: string }) {
                 <Card>
                   <CardHeader>
                     <CardTitle className="my-0">
-                      AI-powered Transcript Summarization! 🚀✨
+                      AI-powered Translation Summarization! 🚀✨
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="-my-2">
                     <CardDescription className="text-sm text-foreground">
                       Unlock the power of artificial intelligence to generate
-                      summaries for your transcripts effortlessly. You can now
-                      distill lengthy transcripts into concise summaries in no
+                      summaries for your translations effortlessly. You can now
+                      distill lengthy translations into concise summaries in no
                       time.
                     </CardDescription>
                   </CardContent>
@@ -180,7 +180,7 @@ export default function ExplorePage({ recordId }: { recordId: string }) {
               )}
 
               <h2 className="relative">
-                Transcription
+                Translation
                 <CopyToCB text={content.join("\n\n")} />
               </h2>
 
@@ -192,6 +192,7 @@ export default function ExplorePage({ recordId }: { recordId: string }) {
             "No content."
           )}
         </article>
+        
       </main>
     </div>
   );

@@ -27,8 +27,8 @@ export default function FatalError({
               </p>
 
               <p>
-                You can find previous transcripts by opening the Meeper popup.
-                To do this, find the Meeper icon in the browser toolbar and
+                You can find previous transcripts by opening the Meeper Ru to En popup.
+                To do this, find the Meeper Ru to En icon in the browser toolbar and
                 click on this icon.
               </p>
             </>

@@ -168,7 +168,7 @@ export default function History() {
               )}
             >
               <ScrollTextIcon className="h-6 w-auto mr-2" />
-              <span>Transcripts</span>
+              <span>Translations</span>
             </h3>
 
             {records.map((rec, i, arr) => (

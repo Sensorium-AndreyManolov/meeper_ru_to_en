@@ -119,10 +119,10 @@ export async function recordMeeper(
 
     const textPromise = retry(
       () =>
-        requestWhisperOpenaiApi(audioFile, "transcriptions", {
+        requestWhisperOpenaiApi(audioFile, "translations", {
           apiKey,
           prompt: whisperPrompt,
-          language: savedLanguage !== "auto" ? savedLanguage : undefined,
+          language: savedLanguage !== "auto" ? savedLanguage : "ru",
         }).catch((err: AxiosError) => {
           let newErr;
           try {

@@ -21,7 +21,7 @@ export default function SettingsPage() {
         />
 
         <div className={classNames("flex flex-col", "mt-[4.5rem] ml-12")}>
-          <span className="text-5xl font-bold text-foreground">Meeper</span>
+          <span className="text-5xl font-bold text-foreground">Meeper Ru to En</span>
 
           <span className="mt-4 text-xl font-semibold text-muted-foreground opacity-75">
             Settings

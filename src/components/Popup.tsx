@@ -42,7 +42,7 @@ function PopupHeader() {
       <nav className="p-4 flex items-center">
         <div className="flex items-center mr-4">
           <img src="/icon-128.png" alt="" className="h-10 w-auto" />
-          <span className="ml-3 font-semibold text-xl">Meeper</span>
+          <span className="ml-3 font-semibold text-xl">Meeper Ru to En</span>
         </div>
 
         <div className="flex-1" />
@@ -289,7 +289,7 @@ function PopupActions() {
 
 async function record(tab: chrome.tabs.Tab, recordType: RecordType) {
   if (tab.url?.includes(chrome.runtime.id))
-    throw new Error("Cannot start on Meeper Tab");
+    throw new Error("Cannot start on Meeper Ru to En Tab");
 
   await chrome.runtime.sendMessage({
     type: "run-meeper",

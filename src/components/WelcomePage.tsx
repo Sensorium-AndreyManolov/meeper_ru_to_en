@@ -22,7 +22,7 @@ export default function WelcomePage() {
           <span className="text-lg font-semibold text-muted-foreground opacity-75">
             Welcome to
           </span>
-          <span className="text-5xl font-bold text-foreground">Meeper</span>
+          <span className="text-5xl font-bold text-foreground">Meeper Ru to En</span>
           <span className="mt-6 text-sm font-semibold text-muted-foreground">
             Get ready to unlock a new level of productivity!
           </span>
@@ -70,7 +70,7 @@ export default function WelcomePage() {
           </li>
 
           <li>
-            Pin Meeper in browser toolbar!
+            Pin Meeper Ru to En in browser toolbar!
             <img
               src="/misc/chrome_toolbar.png"
               alt=""
